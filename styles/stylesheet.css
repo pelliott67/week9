@@ -1,0 +1,16 @@
+#offscreen {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#offscreen:focus {
+    position: static;
+    left: -10000px;
+    width: auto;
+    height: auto;
+}
+
